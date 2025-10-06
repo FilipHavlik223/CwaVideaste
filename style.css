@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #f8f7f3;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
 }
@@ -13,6 +12,7 @@
 
 header {
     padding: 35px 40px;
+    background-color: #f8f7f3;
 }
 
 nav {
@@ -65,6 +65,10 @@ time {
     object-fit: cover;
 }
 
+main{
+    background-color: #f8f7f3;
+}
+
 .hero-text {
     text-align: end;
     width: 45%;
@@ -74,7 +78,58 @@ time {
 }
 
 h1 {
-    font-size: 12rem;
+    font-size: 13rem;
     line-height: 0.7;
     letter-spacing: -3px;
 }
+
+
+.socials {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: black;
+    margin-left: -8px;
+}
+
+.social:first-child {
+    margin-left: 0;
+}
+
+.stats {
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+    margin-left: 55px
+}
+
+.stat h2 {
+    font-size: 65px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.stat p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: end;
+}
+
+
+
+
+
+
+
