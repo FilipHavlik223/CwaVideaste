@@ -162,6 +162,7 @@ h1 {
 .stat h2 {
     font-size: 70px;
     font-weight: bold;
+    font-style: italic;
     text-align: end;
     margin-right: -15px;
 }
@@ -238,6 +239,48 @@ h1 {
     letter-spacing: 1px;
 }
 
+.about-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: end;
+
+}
+
+.about-img {
+    width: 800px;
+
+}
+
+.target {
+    width: 100px;
+}
+
+.cross {
+    width: 70px;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-right: 50px;
+    gap: 160px;
+    float: right;
+    align-items: center;
+
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 50px;
+    gap: 160px;
+    float: left;
+    align-items: center;
+
+}
 
 
 
